@@ -42,6 +42,10 @@ Also add these libraries to project build path:
 - objectify-5.1.9
 - guava-19.0
 
+Fonts used:
+OLDENGL.TTF
 
+
+all applicable rights of each binary libraries used here, are held by their authors. 
 
 
