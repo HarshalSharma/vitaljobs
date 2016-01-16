@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Static Location Add Tool</title>
+<link href="style/postjob.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <p id="logo"><a href="index.html" style="text-decoration:none; color:#000000;">Vital Jobs</a></p>
+  <p style="float:left; margin-top:13px; margin-left:10px; font-size:14px; font-family:verdana;"> | CMS</p>
+</header>
+			<fieldset style="margin-top:10px; width:200px; float:left;">
+    		<legend class="titles">Add New Locations</legend>
+			<form name="myForm" method="post" enctype="application/x-www-form-urlencoded" action="api/addLocation">
+			<p class="titles" style="margin-top:0px;">Location Name:</p>
+			<input name="Name" type="text"/>
+			<p class="titles" style="margin-top:10px;">AccessKey password:</p>
+            <input name="AccessKey" type="password"/>
+			<br />
+			<button class="buttons" id="SubmitButton" style="margin-top:10px;">Add New Static location</button>
+			</form>
+            </fieldset>
+<footer style="position:absolute; bottom: 0; background-color: #ECECEC; width:100%;">
+<p align="center" >&copy; Vital 2016 | harshal sharma</p>
+</footer>
+</body>
+</html>

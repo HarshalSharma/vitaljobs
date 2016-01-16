@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Post a Job</title>
+<link href="style/postjob.css" rel="stylesheet" type="text/css">
+<script src="script/postJob.js" type="application/javascript"></script>
+<body>
+<header>
+  <p id="logo"><a href="index.html" style="text-decoration:none; color:#000000;">Vital Jobs</a></p>
+  <p style="float:left; margin-top:13px; margin-left:10px; font-size:14px; font-family:verdana;"> | Post a Job and let people know you are hiring!!</p>
+</header>
+<br>
+<form name="myForm" enctype="application/x-www-form-urlencoded" method="post" >
+<div class="container" style="float:left;">
+<p class="titles" style="margin-top:0px;">Give a 'Title' to your Job</p>
+<input type="text" name="JobTitle" required autocomplete="off">
+<p class="titles">Describe your Job Profile</p>
+<textarea name="JobDescription" rows="8" cols="32" required autocomplete="off"></textarea>
+<fieldset style="margin-top:10px; width:200px;">
+    <legend class="titles">Select Pay Type</legend>
+<input required type="radio" style="width:30px;" name="payOptions" value="Hourly">Hourly<br>
+<input required type="radio" name="payOptions" style="width:30px;" value="Weekly">Weekly<br>
+<input required type="radio" name="payOptions" style="width:30px;" value="Monthly">Monthly<br>
+<input required type="radio" name="payOptions" style="width:30px;" value="ProjectBasics">Project Basics<br>
+<input required type="radio" name="payOptions" style="width:30px;" value="OneTime">One Time Work<br>
+</fieldset>
+<fieldset style="margin-top:10px; padding-right:0px;">
+    <legend class="titles">Locations (cities,states,countries) :</legend>
+  <input list="LocationsList" id="location" style="width:360px;"  autocomplete="off">
+  <div class="ADDButton" id="locationAdd">ADD</div>
+  <datalist id="LocationsList">
+  </datalist>
+  <div class="tagsHolder" id="locationsHolder">
+  </div>
+ </fieldset>
+</div>
+
+<div class="container" style="right:0; position:absolute;">
+<fieldset>
+    <legend class="titles">Skills required:</legend>
+<input type="text" id="SkillSets" style="width:360px;"  autocomplete="off">
+<div class="ADDButton" id="SkillAdd">ADD</div>
+<div class="tagsHolder" id="skillsHolder">
+</div>
+</fieldset>  
+<fieldset style="margin-top:10px;">
+    <legend class="titles">Education</legend>
+  <input type="text" id="Education" style="width:360px;"  autocomplete="off">
+  <div class="ADDButton" id="educationAdd">ADD</div>
+  <div class="tagsHolder" id="educationHolder">
+  </div>
+ </fieldset>
+<p class="titles">Minimum Work Experience:</p>
+<input type="number"  min="0" max="60" name="WorkExperience" style="width:200px;" required> (0 for freshers)
+<p class="titles">Access Key:</p>
+<input type="password" name="AccessKey" required style="width:200px;" >
+<button class="buttons" id="SubmitButton" style="margin-top:10px;">Submit Job</button>
+</div>
+</form>
+</body>
+</html>

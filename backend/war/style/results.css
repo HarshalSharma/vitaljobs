@@ -1,0 +1,95 @@
+/* CSS Document */
+
+html,body{
+	margin:0px;
+	padding:0px;
+	background-color: #F8F8F8;	
+	height:100%;
+}
+
+header{
+	height: 45px;
+	width: auto;
+	border:#000000 dotted 1px;
+	background-color:#F3F3F3;
+}
+
+#logo{
+	
+	font-size:24px;
+	margin-top:7px;
+	margin-left:10px;
+	font-family:Old English Text MT;
+	cursor:pointer;
+	width:110px;
+	display:inline-block;
+	float:left;	
+
+}
+	
+.buttons{
+/*	background-color:#2BA6D9 ;	*/
+	background-color:#505050;
+	height:30px;
+	display:inline-block;
+	border-radius:4px;
+	font-family: verdana;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+input{
+	font-size:16px;
+	font-family: Consolas;
+	border-radius:2px;
+	border:#000000 solid 1px;
+	width:200px;
+	display:inline-block;
+	float:left;	
+	margin-top:12px;
+	margin-left:8px;
+	margin-right:8px;
+	padding-left:2px;
+}
+
+.titles{
+	font-size: 14px;
+	font-family: Verdana;
+	display:inline-block;
+	float:left;	
+}
+
+#SearchButton{
+	margin-top:7px;
+	float:left;	
+}
+
+.resultItem{
+	width:65%;
+	margin-left:7%;	
+	margin-bottom:30px;
+}
+
+.resultItemTitle{
+	font-size:20px;	
+	margin-bottom:0px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.resultItemDescription{
+	margin-top:8px;	
+	margin-bottom:0px;
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4; /* number of lines to show */
+   line-height: 16px;        /* fallback */
+   max-height: 64px;
+}
+
+.resultItemLocations{
+	margin-top:8px;	
+}
