@@ -18,6 +18,7 @@ Following jars from Restlet Framework should be available on dependecies (Gradle
 
 <h4>Backend Setup:</h4>
 A live demo is running at: http://vitaljobsearch.appspot.com 
+
 As the application backend is running on google app engine it requires you to have recent version app engine java sdk.
 Additionally, these libraries should be available at the build path or dependencies(Gradle imports).
 
