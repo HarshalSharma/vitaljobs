@@ -2,8 +2,6 @@
 "Vital Jobs" is a sample android and app engine project to demonstrate an example of Job Searching websites and mobile apps.
 A Basic project to demonstrate Client - Server Restful communication architecture.
 
-For 'Quick' project explanation, useage and tutorial, go through this short video: 
-
 <h4>Client Setup:</h4>
 
 The Android Client project uses "restlet-android-2.3.5" Framework, 
